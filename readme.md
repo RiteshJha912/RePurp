@@ -1,3 +1,4 @@
+```
 repurp/
 ├── README.md
 ├── .gitignore
@@ -29,3 +30,4 @@ repurp/
     └── utils/                # Helper scripts for processing
         ├── video_processing.py  # Wrappers for FFmpeg commands (audio extraction, clipping)
         └── text_processing.py   # Functions for summarizing and extracting key points
+```
