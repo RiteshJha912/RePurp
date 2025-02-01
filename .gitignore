@@ -1,0 +1,12 @@
+# Ignore Node modules
+client/node_modules/
+
+# Ignore React build files
+client/build/
+
+# Ignore Python virtual environment
+server/venv/
+
+# Ignore system files
+.DS_Store
+*.log
