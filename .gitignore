@@ -10,3 +10,5 @@ server/venv/
 # Ignore system files
 .DS_Store
 *.log
+
+*.txt
