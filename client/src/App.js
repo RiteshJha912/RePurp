@@ -32,7 +32,7 @@ function App() {
       <form onSubmit={handleSubmit}>
         <input
           type='text'
-          placeholder='Enter any URL'
+          placeholder='Enter YouTube URL'
           value={url}
           onChange={(e) => setUrl(e.target.value)}
           style={{ width: '300px', padding: '8px' }}
@@ -61,6 +61,26 @@ function App() {
             >
               <h4>Transcript:</h4>
               <p style={{ whiteSpace: 'pre-wrap' }}>{metadata.transcript}</p>
+            </div>
+          )}
+
+          {metadata.tweets && (
+            <div
+              style={{
+                textAlign: 'left',
+                margin: '20px auto',
+                width: '60%',
+                border: '1px solid #ddd',
+                padding: '10px',
+                borderRadius: '5px',
+              }}
+            >
+              <h4>Generated Tweet Thread:</h4>
+              {metadata.tweets.map((tweet, index) => (
+                <p key={index} style={{ marginBottom: '10px' }}>
+                  {tweet}
+                </p>
+              ))}
             </div>
           )}
         </div>
