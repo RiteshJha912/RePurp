@@ -18,4 +18,4 @@ repurp/
 └──.gitignore
 ```
 
-Content recyler 
+Content recyler , will try integrating AI
