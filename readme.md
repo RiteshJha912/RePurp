@@ -19,4 +19,4 @@ repurp/
 ```
 
 Content recyler , will try integrating AI
-Aim is to recycle video content to interesting non ai detectable text content 
+Video -> text
