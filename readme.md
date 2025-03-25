@@ -20,3 +20,4 @@ repurp/
 
 Content recyler , will try integrating AI
 Video -> text
+Sad project didn't get enough time
